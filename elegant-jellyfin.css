@@ -3361,3 +3361,7 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense > div:first-child {
     --cardCount: 1 !important;
   }
 }
+
+.mainDrawer-scrollContainer {
+  padding-top: 1.5vh !important;
+}
