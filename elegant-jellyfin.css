@@ -22,8 +22,10 @@
   --osdSeekBarThumbColor: white;
   --tableBodyColor: rgb(31 41 55 / 1);
   --uiAccentColor: rgb(117 111 226);
-  --btnMiniPlayColor: rgb(41 154 93);
-  --btnMiniPlayBorderColor: rgb(50, 167, 105);
+  /* --btnMiniPlayColor: rgb(41 154 93); */
+  --btnMiniPlayColor: rgb(255, 255, 255);
+  /* --btnMiniPlayBorderColor: rgb(50, 167, 105); */
+  --btnMiniPlayBorderColor: rgb(255, 255, 255);
   --btnDeleteColor: rgb(169, 29, 29);
   --btnDeleteBorderColor: rgb(217, 84, 84);
   --btnSubmitColor: rgb(61, 54, 178);
@@ -383,7 +385,7 @@ body {
   .cardOverlayButton-br:not([data-action="menu"])
   > .cardOverlayButtonIcon {
   background-color: var(--btnMiniPlayColor) !important;
-  color: white;
+  color: black;
   border: var(--defaultLighterBorder);
   border-color: var(--btnMiniPlayBorderColor);
   font-size: 75%;
@@ -1830,13 +1832,16 @@ progress + span {
   -webkit-align-items: center;
   align-items: center;
   top: 0.5em;
+  display: none;
 }
 [dir="ltr"] .cardIndicators {
   right: 0.5em;
+  display: none;
 }
 .layout-mobile .cardIndicators {
   top: 0.2em;
   right: 0.2em;
+  display: none;
 }
 .indicator {
   border: solid rgb(124 124 124 / 50%) var(--borderWidth);
@@ -2567,7 +2572,7 @@ div[data-role="controlgroup"] a.ui-btn-active {
 }
 @media (hover: hover) and (pointer: fine) {
   .paper-icon-button-light:hover:not(:disabled) {
-    color: #fff;
+    color: #000000;
     background-color: rgb(255 255 255 / 5%);
   }
   .actionSheetMenuItem.emby-button:has(
