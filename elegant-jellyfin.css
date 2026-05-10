@@ -2579,7 +2579,7 @@ div[data-role="controlgroup"] a.ui-btn-active {
 }
 @media (hover: hover) and (pointer: fine) {
   .paper-icon-button-light:hover:not(:disabled) {
-    color: #ffffff;
+    color: #000000;
     background-color: rgb(255 255 255 / 5%);
   }
   .actionSheetMenuItem.emby-button:has(
