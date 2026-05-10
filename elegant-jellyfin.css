@@ -394,7 +394,7 @@ body {
 }
 .cardOverlayContainer > .cardOverlayFab-primary:hover,
 .listItemImageButton:hover {
-  color: white;
+  color: black;
 }
 .cardOverlayButton-br .cardOverlayButton-hover[data-action="menu"],
 .layout-desktop .listItemButton[data-action="menu"] {
@@ -857,6 +857,7 @@ body {
 .headerLeft .pageTitle {
   display: -webkit-box;
   -webkit-line-clamp: 1;
+  line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -928,6 +929,7 @@ body {
 .starIcon {
   background: linear-gradient(to right, #90cea1, #01b4e4);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-left: -0.125em;
   transform: translateY(-0.02em);
@@ -1590,12 +1592,15 @@ progress + span {
 }
 .layout-desktop .detail-clamp-text {
   -webkit-line-clamp: 2;
+  line-clamp: 2;
 }
 .layout-mobile .detail-clamp-text {
   -webkit-line-clamp: 4;
+  line-clamp: 4;
 }
 .layout-tv .detail-clamp-text {
   -webkit-line-clamp: 10;
+  line-clamp: 10;
   transition: none;
 }
 .overview-expand.emby-button {
@@ -2137,6 +2142,7 @@ div[data-role="controlgroup"] a.ui-btn-active {
 .listItemBody > .listItemBodyText:not(.secondary) {
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   color: var(--textColor);
@@ -2144,6 +2150,7 @@ div[data-role="controlgroup"] a.ui-btn-active {
 .listItem-overview {
   display: -webkit-box;
   -webkit-line-clamp: 4;
+  line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
